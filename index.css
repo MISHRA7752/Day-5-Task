@@ -12,6 +12,7 @@
     text-align: right;
     align-items: stretch;
     font-size: xx-large;
+    word-wrap: break-word;
 }
 .brr{
     height: 1px;
