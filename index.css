@@ -1,0 +1,42 @@
+.ma{
+    background-color: black;
+    width: 407px;
+    height: 707px;
+    margin: auto;
+    margin-top: 20px;
+}
+.ui{
+    width: 400px;
+    height: 348px;
+    color: white;
+    text-align: right;
+    align-items: stretch;
+    font-size: xx-large;
+}
+.brr{
+    height: 1px;
+    width: 400px;
+    background-color: rgb(114, 114, 104);
+}
+.tb{
+    width: 400px;
+    height: 350px;
+}
+button{
+    height: 70px;
+    width: 100px;
+}
+button:hover{
+    background-color: rgb(206, 39, 164);
+}
+.nav{
+    margin-top: 0px;
+    background-color: black;
+    color: rgb(133, 15, 109);
+    height: 50px;
+    font-size: xx-large;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
