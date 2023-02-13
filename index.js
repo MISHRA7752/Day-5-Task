@@ -11,6 +11,9 @@ function f(t){
     }
     if(t==3){
         s=document.getElementById("exp").innerHTML;
+        if(s.charAt(s.length-1)=='+'||s.charAt(s.length-1)=='-'||s.charAt(s.length-1)=='/'||s.charAt(s.length-1)=='*'){
+            return
+        }
         j=-1;
         for(i=s.length-1;i>=0;i--){
             if(s[i]=='+'||s[i]=='-'||s[i]=='*'||s[i]=='/'){
